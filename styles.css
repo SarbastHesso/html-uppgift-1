@@ -1,3 +1,4 @@
+/* general styling  */
 * {
     margin: 0;
     padding: 0;
@@ -8,15 +9,13 @@ body {
     background-color: #ededed;
 }
 
+/* A container to all elements  */
 .container {
     max-width: 80%;
     margin: 0 auto;
 }
 
-header {
-    margin-bottom: 3rem;
-}
-
+/* Styling to header section  */
 header h1 {
     text-align: center;
     padding: 1rem;
@@ -36,5 +35,37 @@ header p {
 }
 
 header img {
-    max-width: 250px;
+    width: 325px;
+}
+
+/* styling to main section  */
+main {
+    margin-bottom: 3rem;
+}
+
+.ingredienser {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.ingredienser img {
+    width: 700px;
+}
+
+.ingredienser div {
+    padding: 1rem;
+}
+
+.ingredienser div h3 {
+    font-size: 2rem;
+}
+
+.ingredienser div ul {
+    padding: 2rem;
+}
+
+.ingredienser div ul li {
+    font-size: 1.5rem;
+    padding-bottom: .5rem;
 }
