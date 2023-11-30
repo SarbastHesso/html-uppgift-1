@@ -11,7 +11,7 @@ body {
 
 /* A container to all elements  */
 .container {
-    max-width: 80%;
+    max-width: 90%;
     margin: 0 auto;
 }
 
@@ -19,7 +19,7 @@ body {
 header h1 {
     text-align: center;
     padding: 1rem;
-    margin: 1rem;
+    margin: 2rem;
     font-size: 3rem;
 }
 
@@ -35,7 +35,7 @@ header p {
 }
 
 header img {
-    width: 325px;
+    width: 240px;
 }
 
 /* styling to main section  */
@@ -43,29 +43,46 @@ main {
     margin-bottom: 3rem;
 }
 
-.ingredienser {
+/* styling to ingredienser section in main section  */
+.section-1 {
     display: flex;
+    justify-content: center;
     align-items: center;
     margin-bottom: 3rem;
 }
 
-.ingredienser img {
-    width: 700px;
+.section-1 img {
+    width: 600px;
+    opacity: .5;
 }
 
-.ingredienser div {
+.section-1 div {
     padding: 1rem;
 }
 
-.ingredienser div h3 {
+.section-1 div h3 {
     font-size: 2rem;
 }
 
-.ingredienser div ul {
+.section-1 div ul {
     padding: 2rem;
 }
 
-.ingredienser div ul li {
-    font-size: 1.5rem;
+.section-1 div ul li {
+    font-size: 1.2rem;
+    padding-bottom: .5rem;
+}
+
+/* styling to gör så här section in main section  */
+.section-2 h3 {
+    font-size: 2rem;
+}
+
+.section-2 ol {
+    padding: 2rem;
+}
+
+.section-2 ol li {
+    font-size: 1.2rem;
     padding-bottom: .5rem;
 }
