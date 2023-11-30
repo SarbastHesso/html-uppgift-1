@@ -73,7 +73,7 @@ main {
     padding-bottom: .5rem;
 }
 
-/* styling to gör så här section in main section  */
+/* styling to method section in main section  */
 .section-2 h3 {
     font-size: 2rem;
 }
@@ -85,4 +85,24 @@ main {
 .section-2 ol li {
     font-size: 1.2rem;
     padding-bottom: .5rem;
+}
+
+/* styling the footer  */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+footer span {
+    font-size: 1.2rem;
+    margin-right: 2rem;
+}
+
+footer a {
+    font-size: 1.2rem;
+    color: #ffffff;
 }
