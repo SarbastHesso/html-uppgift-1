@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ededed;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    margin-bottom: 3rem;
+}
+
+header h1 {
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 3rem;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    background-color: #e6e6e6;
+}
+
+header p {
+    font-size: 1.5rem;
+    padding: 0 1rem;
+}
+
+header img {
+    max-width: 250px;
+}
